@@ -1,0 +1,9 @@
+/* Selector: p, h1, div, h2, etc
+{}: Expression
+color, background-color, height: property
+red, lightcoral, 300px: value */
+
+div {
+    height: 300px;
+    background-color: lightcoral;
+}
