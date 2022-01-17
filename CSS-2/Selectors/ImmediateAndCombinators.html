@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title></title>
+    <style>
+      h2 {
+        color: red;
+      }
+      /* 
+      #parent h2 {
+        color: blue;
+      } */
+
+      /* .heading {
+        color: brown;
+      } */
+
+      /* parent's immediate child */
+      #parent > h2 {
+        color: tomato;
+      }
+
+      .child > h2 {
+        color: violet;
+      }
+
+      /* Parent's Immediate Sibling */
+      #parent + h2 {
+        color: yellow;
+      }
+
+      /* Combinator */
+      #parent ~ h2 {
+          color: teal;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <div id="parent">
+      <h2>This is a Parent heading</h2>
+      <!-- <h2 class="heading">This is a Parent heading</h2> -->
+      <div class="child">
+        <h2>This is a Child heading</h2>
+        <div class="grand-child">
+          <h2>This is a Grand-Child heading</h2>
+        </div>
+      </div>
+    </div>
+
+    <h2>This is a sub-heading</h2>
+    <h2>This is a sub-heading</h2>
+
+  </body>
+</html>
