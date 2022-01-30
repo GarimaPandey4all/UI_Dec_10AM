@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+
+            /* pseudo elements: fake elements */
+            /* after , before */
+
+            /* #parent {
+                height: 250px;
+            } */
+
+            #parent::after {
+                content: "";
+                clear: both;
+                display: block;
+            }
+
+            .col-1 {
+                width: 30%;
+                background-color: aqua;
+                float: left;
+            }
+
+            .col-2 {
+                width: 30%;
+                background-color: blue;
+                float: left;
+            }
+
+            .col-3 {
+                width: 30%;
+                background-color: violet;
+                float: right;
+            }
+
+            .div-1 {
+                background-color: tomato;
+            }
+
+            /* .clear {
+                clear: both;
+            } */
+
+        </style>
+    </head>
+    <body>
+        
+        <div id="parent">
+            <div class="col-1">
+                <h2>This is a heading</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur, laborum doloribus reprehenderit vel assumenda quis aliquid error dignissimos aperiam vero doloremque eos possimus voluptate architecto, voluptates labore. Aspernatur, autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi reiciendis maiores adipisci omnis eos, nisi ullam ipsum nesciunt aspernatur ex quae possimus reprehenderit, aperiam, nobis unde? Pariatur odio minus unde? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias amet nulla soluta cupiditate dicta, dolore expedita. Maxime perferendis, rem porro, harum a repudiandae adipisci exercitationem, possimus dolor at voluptas obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta repellendus veritatis aperiam a ut quam quisquam ipsa iure perspiciatis! Ullam doloremque distinctio, provident modi esse praesentium! Accusantium, excepturi consectetur!
+                </p>
+            </div>
+            <div class="col-2">
+                <h2>This is a heading</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur, laborum doloribus reprehenderit vel assumenda quis aliquid error dignissimos aperiam vero doloremque eos possimus voluptate architecto, voluptates labore. Aspernatur, autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi reiciendis maiores adipisci omnis eos, nisi ullam ipsum nesciunt aspernatur ex quae possimus reprehenderit, aperiam, nobis unde? Pariatur odio minus unde? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, natus sint, corrupti deleniti suscipit in et iste ab voluptatibus dolor repudiandae voluptatum reiciendis aliquam nulla dignissimos, minima fugit quam corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed voluptatibus exercitationem doloribus asperiores, dolores sapiente ducimus accusamus, est modi quo soluta quos cumque, cupiditate magni voluptates! Iure, asperiores pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusantium tenetur, sunt corrupti, iure temporibus, nihil repellendus nemo numquam saepe expedita! Voluptatem temporibus magnam harum magni architecto consequuntur aliquid quod.
+                </p>
+            </div>
+            <!-- <div class="clear">
+
+            </div> -->
+
+            <div class="col-3">
+                <h2>This is a heading</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur, laborum doloribus reprehenderit vel assumenda quis aliquid error dignissimos aperiam vero doloremque eos possimus voluptate architecto, voluptates labore. Aspernatur, autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi reiciendis maiores adipisci omnis eos, nisi ullam ipsum nesciunt aspernatur ex quae possimus reprehenderit, aperiam, nobis unde? Pariatur odio minus unde? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, natus sint, corrupti deleniti suscipit in et iste ab voluptatibus dolor repudiandae voluptatum reiciendis aliquam nulla dignissimos, minima fugit quam corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed voluptatibus exercitationem doloribus asperiores, dolores sapiente ducimus accusamus, est modi quo soluta quos cumque, cupiditate magni voluptates! Iure, asperiores pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusantium tenetur, sunt corrupti, iure temporibus, nihil repellendus nemo numquam saepe expedita! Voluptatem temporibus magnam harum magni architecto consequuntur aliquid quod.
+                </p>
+            </div>
+        </div>
+
+        <div class="div-1">
+            <h2>This is a heading</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur, laborum doloribus reprehenderit vel assumenda quis aliquid error dignissimos aperiam vero doloremque eos possimus voluptate architecto, voluptates labore. Aspernatur, autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi reiciendis maiores adipisci omnis eos, nisi ullam ipsum nesciunt aspernatur ex quae possimus reprehenderit, aperiam, nobis unde? Pariatur odio minus unde?
+            </p>
+        </div>
+
+    </body>
+</html>
