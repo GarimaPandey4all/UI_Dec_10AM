@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    color: #7A0BC0;
+}
+
+h1 {
+    color: #fff;
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    color: #FA58B6;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+h3 {
+    font-size: 20px;
+    color: #270082;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+p {
+    font-size: 17px;
+    color: #7A0BC0;
+    line-height: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #FA58B6;
+}
+
+#top-container {
+    background-color: #1A1A40;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.title-text {
+    padding: 100px 0px;
+}
+
+#middle-container {
+    margin: 100px 0px;
+}
+
+.intro {
+    width: 30%;
+    margin: 30px auto;
+}
+
+.skill {
+    width: 50%;
+    margin: 100px auto 120px;
+    text-align: left;
+}
+
+.top-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 30%;
+}
+
+.middle-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 20px;
+}
+
+.contact-message {
+    margin: 40px auto 20px;
+}
+
+.btn {
+    background-color: #1A1A40;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #270082;
+    color: #FA58B6;
+}
+
+#bottom-container {
+    background-color: #1A1A40;
+    padding: 40px 0px 60px;
+}
+
+.footer-link {
+    margin: 0px 20px;
+}
+
+.footer-link:hover {
+    color: #7A0BC0;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #7A0BC0;
+    padding: 20px 0px;
+}
