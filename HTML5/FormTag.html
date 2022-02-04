@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="#">
+        <table>
+            <tr>
+                <td>
+                    <label for="username">Enter Name</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter Name" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwd">Enter Password</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="Enter Password" id="pwd">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Age</td>
+                <td>
+                    <input type="number" min="10" max="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Range
+                </td>
+                <td>
+                    <input type="range" min="100" max="300" value="100" onchange="output.value = value" step="10">
+                </td>
+                <td>
+                    <output id="output">100</output>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Email
+                </td>
+                <td>
+                    <input type="email" placeholder="Enter Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Url
+                </td>
+                <td>
+                    <input type="url" placeholder="Enter Url">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter DOB
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+                <td>
+                    <input type="time">
+                </td>
+                <td>
+                    <input type="datetime-local">
+                </td>
+            </tr>
+            <tr>
+                <td>Choose Color</td>
+                <td>
+                    <input type="color">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Your Progress
+                </td>
+                <td>
+                    <progress value="30" max="100"></progress>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Comments
+                </td>
+                <td>
+                    <textarea name="" id="" cols="50" rows="20" style="resize: none;" spellcheck="false"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
