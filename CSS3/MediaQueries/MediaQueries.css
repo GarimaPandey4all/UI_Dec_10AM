@@ -37,7 +37,7 @@ ul li {
     /* align-items: flex-end; */
     /* align-items: center; */
     /* flex-direction: column-reverse; */
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
 }
 
 .column {
@@ -52,15 +52,27 @@ img {
 
 .col-1 {
   width: 20%;
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 
 .col-2 {
   width: 50%;
-  align-self: center;
+  /* align-self: center; */
 }
 
 .col-3 {
   width: 20%;
-  align-self: center;
+  /* align-self: center; */
+}
+
+@media (max-width:768px) {
+  
+  #parent {
+    display: block;
+  }
+  .column {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
 }
