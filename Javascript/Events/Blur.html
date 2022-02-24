@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- this: hold current reference  -->
+    <input type="text" placeholder="Enter Name" onblur="validate(this)">
+    <span id="result"></span>
+
+    <script>
+        function validate(evt)
+        {
+            // alert("Blur");
+            evt.style.border = '2px solid red';
+            document.getElementById("result").innerHTML = "Please fill out this field";
+        }
+    </script>
+    
+</body>
+</html>
