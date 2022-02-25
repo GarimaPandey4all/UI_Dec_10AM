@@ -32,6 +32,21 @@ function validateUsermail()
 
     text = text.trim();
     blankCheck(text, 1);
+
+    // let pattern = /([a-z][0-9]\w+[@]\w+[.]\w+)/;
+    let pattern = /([a-z][0-9]\w+[@]\w+[.]+[a-z]{2,3}$)/;
+    let result = pattern.test(text);
+
+    console.log(result);
+
+    if(result)
+    {
+        span[1].innerHTML = 'Valid Email';
+    }
+    else {
+        span[1].innerHTML = "Not Valid Email";
+    }
+
 }
 
 function blankCheck(text, id)

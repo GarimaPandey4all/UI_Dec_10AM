@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div onmouseover="changeImage(this)" onmouseout="changeImage2(this)">
+        <img src="https://www.fightersgeneration.com/characters/hulk-gah.gif" alt="">
+    </div>
+
+    <script>
+        function changeImage(evt)
+        {
+            evt.innerHTML = '<img src="https://www.fumettando.it/gif_animate/supereroi/hulk09.gif" alt="">';
+        }
+
+        function changeImage2(evt)
+        {
+            evt.innerHTML = '<img src="https://www.fightersgeneration.com/characters/hulk-gah.gif" alt="">';
+        }
+
+    </script>
+    
+</body>
+</html>

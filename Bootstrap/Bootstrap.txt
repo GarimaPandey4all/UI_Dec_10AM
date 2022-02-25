@@ -9,7 +9,7 @@ columns = 12
 
 #- number of columns
 
-> 1200px					col-xl-#
+> 1200px				col-xl-#
 > 992px					col-lg-#
 > 768px					col-md-#
 > 576px					col-sm-#

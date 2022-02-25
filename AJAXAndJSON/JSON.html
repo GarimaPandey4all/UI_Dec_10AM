@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <!-- XML: Extensible Markup Language -->
+    <!-- JSON: Javascript Object Notation: Key-value: It is used to store data -->
+
+    <script>
+        var companies = `[
+                    {
+                        "name": "NIIT",
+                        "numberofEmp": 5000,
+                        "CEO": "Sapnesh Lalla"
+                    },
+                    {
+                        "name": "Google",
+                        "numberofEmp": 5000000,
+                        "CEO": "Sundar Pichai"
+                    }
+        ]`
+
+        console.log(companies);
+        console.log(JSON.parse(companies)[0].CEO);
+    </script>
+    
+</body>
+</html>

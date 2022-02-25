@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- popups
+
+    1. alert
+    2. confirm
+    3. prompt -->
+
+    <button onclick="show()">Click Here</button>
+    <button onclick="calc()">Show Calculator</button>
+
+    <script>
+        function show()
+        {
+            //window.alert("Good Afternoon");
+            // alert("Hello Guys");
+
+            let c = confirm("Are you sure you want to quit?");
+            // console.log(c);
+
+            //truthy and falsy
+            if(c) {
+                 window.close();
+            }
+            else {
+                alert("You will stay here");
+            }
+        }
+
+        function calc()
+        {
+            let num1 = parseInt(prompt("Enter First Number: ", 0));
+            let num2 = parseInt(prompt("Enter Second Number: ", 0));
+
+            let result = num1 + num2;
+            alert("Result is: "+result);
+        }
+    </script>
+    
+</body>
+</html>
